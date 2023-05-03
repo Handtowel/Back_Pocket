@@ -1,3 +1,5 @@
-def calculate_age(year, birth_year)
-  print(f"I am {year - birth_year} years old.")
+def calculate_age(year, birth):
+  age = year - birth
+  print(f"I was born in {birth}.")
+  print(f"I am {year - birth} years old.")
 calculate_age(2023 - 1987)
